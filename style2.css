@@ -1,0 +1,145 @@
+*{
+	margin:0 ;
+	padding: 0;
+
+
+}
+
+.computing{
+	min-height: 100vh;
+	width: 100%;
+	background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/computing.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.science{
+	min-height: 100vh;
+	width: 100%;
+	background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/science.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.bus{
+	min-height: 100vh;
+	width: 100%;
+	background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/business.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img{
+	width: 200px;
+}
+.navigators{
+	flex: 1;
+	text-align: right;
+}
+.navigators ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+
+}
+.navigators ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+}
+.navigators ul li::after{
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.navigators ul li:hover::after{
+	width: 0%;
+}
+/*........................engineering.................*/
+.eng{
+	min-height: 100vh;
+	width: 100%;
+	background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/engineer.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.a{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 30%;
+	left: 23%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-size: 45px;
+}
+#p1{
+	width: 60%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-size: 30px;
+}
+.imgsize1{
+	width: 600px;
+	position: absolute;
+	left:700px;
+	top:180px;
+}
+.p2{
+	width: 60%;
+	color: #fff;
+	position: absolute;
+	top:70%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-size: 30px
+}
+
+.p2:hover{
+	color: #F10F38;
+}
+.imgsize1:hover{
+	transform: scale(1.1);
+}
+
+
+/*..................................footer...................................................*/
+
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+	font-size: 20px;
+	background-color: #BCCED4;
+}
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+.links{
+	
+	cursor: pointer;
+	padding: 12px ;
+
+}
+img{
+	width:200px;
+	border-radius:30px;
